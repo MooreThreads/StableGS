@@ -1,0 +1,24 @@
+python train_pair.py -s dataset/bicycle -m output_stablegs/bicycle -i images_2 --mode "final_count" --eval --budget 5987095 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/bonsai -m output_stablegs/bonsai -i images_2 --mode "final_count" --eval --budget 1252367 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/counter -m output_stablegs/counter -i images_2 --mode "final_count" --eval --budget 1190919 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/drjohnson -m output_stablegs/drjohnson -i images --mode "final_count" --eval --budget 3273600 --sh_lower --dual --single_loss --lambda_depth_pair 0.05  --nogof --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/garden -m output_stablegs/garden -i images_2 --mode "final_count" --eval --budget 5728191 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/kitchen -m output_stablegs/kitchen -i images_2 --mode "final_count" --eval --budget 1803735 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/playroom -m output_stablegs/playroom -i images --mode "final_count" --eval --budget 2326100 --sh_lower --dual --single_loss --lambda_depth_pair 0.05  --nogof --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/room -m output_stablegs/room -i images_2 --mode "final_count" --eval --budget 1548960 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/stump -m output_stablegs/stump -i images_2 --mode "final_count" --eval --budget 4867429 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/train -m output_stablegs/train -i images --mode "final_count" --eval --budget 1085480 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/truck -m output_stablegs/truck -i images --mode "final_count" --eval --budget 2584171 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth_normal 0.05 
+
+
+python train_pair.py -s dataset/bicycle -m output_stable_depth/bicycle -i images_2 --mode "final_count" --eval --budget 5987095 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth 0.005 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/bonsai -m output_stable_depth/bonsai -i images_2 --mode "final_count" --eval --budget 1252367 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth 0.005 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/counter -m output_stable_depth/counter -i images_2 --mode "final_count" --eval --budget 1190919 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth 0.005 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/drjohnson -m output_stable_depth/drjohnson -i images --mode "final_count" --eval --budget 3273600 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth 0.005 --lambda_depth_normal 0.05 --nogof
+python train_pair.py -s dataset/garden -m output_stable_depth/garden -i images_2 --mode "final_count" --eval --budget 5728191 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth 0.005 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/kitchen -m output_stable_depth/kitchen -i images_2 --mode "final_count" --eval --budget 1803735 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth 0.005 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/playroom -m output_stable_depth/playroom -i images --mode "final_count" --eval --budget 2326100 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth 0.005 --lambda_depth_normal 0.05 --nogof
+python train_pair.py -s dataset/room -m output_stable_depth/room -i images_2 --mode "final_count" --eval --budget 1548960 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth 0.005 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/stump -m output_stable_depth/stump -i images_2 --mode "final_count" --eval --budget 4867429 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth 0.005 --lambda_depth_normal 0.05 
+python train_pair.py -s dataset/train -m output_stable_depth/train -i images --mode "final_count" --eval --budget 1085480 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth 0.005 --lambda_depth_normal 0.05
+python train_pair.py -s dataset/truck -m output_stable_depth/truck -i images --mode "final_count" --eval --budget 2584171 --sh_lower --dual --single_loss --lambda_depth_pair 0.05 --lambda_depth 0.005 --lambda_depth_normal 0.05

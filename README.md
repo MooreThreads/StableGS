@@ -1,6 +1,5 @@
 # StableGS
-This repository contains the official authors implementation associated with the paper "StableGS: A Floater-Free Framework for 3D Gaussian Splatting", ours code will be released soon.
 
-<img width="1111" alt="comingsoon" src="https://user-images.githubusercontent.com/6929121/87441911-486bf600-c611-11ea-9d45-94c215733cf7.png">
-
-
+1. generate pairs_uni.pth by mvs.py
+2. cd submodules/diff-gaussian-rasterization_radegs; python setup.py build_ext --inplace -j8; cd submodules/diff-gaussian-rasterization_taming; python setup.py build_ext --inplace -j8
+3. training refer to run.sh
